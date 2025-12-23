@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-card">
+        <h2>Weather Forecast</h2>
+        <div class="search">
+            <input type="text" id="cityInput" placeholder="Enter your city">
+            <button id="searchBtn">Search</button>
+        </div>
+        <button id="geoBtn">Use My Location</button>
+        
+        <div id="weatherResult" class="hidden">
+            <h3 id="cityName">---</h3>
+            <p id="description">---</p>
+            <h1 id="temp">--°C</h1>
+            <div class="details">
+                <p>Humidity: <span id="humidity">--</span>%</p>
+                <p>Wind: <span id="wind">--</span> m/s</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
