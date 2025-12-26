@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Create and write to README.md
 cat <<EOF > README.md
 # 🌦️ Quick Weather App
